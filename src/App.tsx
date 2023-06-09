@@ -1,11 +1,12 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import { Header } from "./components/Header";
+import { Paper } from "./components/Paper";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Header />
+      <Paper />
     </div>
   );
 }
